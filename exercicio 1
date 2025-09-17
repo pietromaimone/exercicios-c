@@ -1,0 +1,23 @@
+/*Escreva um programa que pergunte um valor em metros e imprima o
+correspondente em decímetros, centímetros e milímetros*/
+
+
+#include <stdio.h>
+
+int main() {
+    
+    int metros ;
+    int decimetros ;
+    int centimetros;
+    int milimetros ;
+    printf("digite o valor em metros:");
+    scanf("%d",  &metros);
+    decimetros = metros* 10 ;
+    centimetros = metros * 100;
+    milimetros = metros * 1000;
+    printf("decimetros %d , centimetros %d ,milimetros %d \n", decimetros , centimetros , milimetros);
+
+
+    
+    return 0;
+}
