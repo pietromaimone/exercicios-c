@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/* 4. Escreva um programa para receber do usuário um mês (de 1 a 12) e um ano (de
+0 D.C. em diante) e mostrar o número de dias daquele mês daquele ano. Tente
+fazer usando switch/case.*/
+
 int main() {
     int mes, ano, dias;
 
